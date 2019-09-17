@@ -8,7 +8,7 @@
 </head>
 <body>
 
-        <img width="100" src="images/Pikachu.png">
+
 
         <ul>
                 <h1>The Best Pokemon</h1>
@@ -17,13 +17,23 @@
                  
              </ul>
 
-<script>
-    
-//    alert("Hello");
-    
-   // document.write("Hello");
+             <script>
 
-</script>
+                function play(){
+              
+                     var audio = document.getElementById("audio");
+              
+                     audio.play();
+              
+                               }
+              
+                 </script>
+              
+               
+              
+              <img src="images/Pikachu.png" width=100 value="PLAY"  onclick="play()">
+              
+              <audio id="audio" src="sound/Pika2.mp3" type="audio/mpeg" ></audio>
 
 </ul>
    
